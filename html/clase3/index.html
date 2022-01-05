@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        table,tr,td {
+            border: 1px solid rgb(80, 36, 121)
+        }
+    </style>
+    <title>Clase3</title>
+
+</head>
+<body>
+    <h1>Listas y tablas</h1>
+
+    <h2>Listas</h2>
+    <p>Listas ordenadas</p>
+    <ol>
+        <li><strong>Perritos</strong> <img src="asadf.jpg" alt="holi"></li>
+        <li><em>Gatos</em></li>
+        <li>Caballos</li>
+    </ol>
+    <!-- Si se quiere colocar una imagen debe ser dentro del li -->
+    <p>Listas desordenadas</p>
+
+    <ul>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Sed, dolorem omnis!</li>
+        <li>Dolore, accusantium quasi?</li>
+        <li>Incidunt, porro maxime.</li>
+        <li>Adipisci, eos ad.</li>
+    </ul>
+
+    <!-- ul>li*5>lorem3     Agiliza el código. -->
+
+    <!-- Meter una lista dentro de una lista  -->
+    <p><b>Lista anidada</b></p>
+    <ul>
+        <li>Lorem, ipsum.</li>
+        <ol>
+            <li>Lorem, ipsum.</li>
+                <ol>
+                    <li>Lorem, ipsum.</li>
+                    <li>Odio, quasi!</li>
+                </ol>
+            <li>Quibusdam, enim.</li>
+            <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Voluptatem, illo?</li>
+            </ol>
+            <li>Provident, dolorum?</li>
+                <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Accusantium, necessitatibus.</li>
+                </ol>
+            <li>Sequi, non!</li>
+        </ol>
+        <li>Dolorem, similique?</li>
+        <ol>
+            <li>Lorem, ipsum.</li>
+            <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Neque, quis?</li>
+            </ol>
+            <li>Quibusdam, enim.</li>
+            <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Cupiditate, quo.</li>
+            </ol>
+            <li>Provident, dolorum?</li>
+            <ol>
+                <li>Lorem, ipsum.</li>
+                <li>Earum, ipsa!</li>
+            </ol>
+            <li>Sequi, non!</li>
+        </ol>
+        <li>Quod, enim?</li>
+        <ol>
+            <li>Lorem, ipsum.</li>
+                <ol>
+                    <li>Lorem, ipsum.</li>
+                    <li>Mollitia, debitis!</li>
+                </ol>
+            <li>Quibusdam, enim.</li>
+                <ol>
+                    <li>Lorem, ipsum.</li>
+                    <li>Labore, deserunt!</li>
+                </ol>
+            <li>Provident, dolorum?</li>
+                <ol>
+                    <li>Lorem, ipsum.</li>
+                    <li>Quam, cupiditate.</li>
+                </ol>
+            <li>Sequi, non!</li>
+                <ol>
+                    <li>Lorem, ipsum.</li>
+                    <li>Minima, aspernatur.</li>
+                </ol>
+        </ol>
+    </ul>
+
+    <hr>
+
+    <h2>Tablas</h2>
+
+    <!-- Nunca se van a utilizar -->
+
+    <table>
+        <tr>
+            <td>hellow</td>
+            <td>adiows</td>
+            <td>wenas</td>
+        </tr>
+        <tr>
+            <td>Holi</td>
+            <td>donna</td>
+            <td>blabla</td>
+        </tr>
+        <tr>
+            <td colspan="3">lorem</td>
+        </tr>
+        <tr>
+            <td>lorem</td>
+            <td rowspan="3">lorem2</td>
+            <td rowspan="2">lorem3</td>
+        </tr>
+        <tr>
+            <td>lorem</td>
+        </tr>
+        <tr>
+            <td>lorem</td>
+        </tr>
+    </table>
+
+    <p>EJERCICIO TABLA</p>
+    
+    <table>
+        <tr>
+            <td rowspan="3">lorem</td>
+            <td >lore</td>
+            <td colspan="2">lorem</td>
+        </tr>
+        <tr>
+            <td rowspan="2">lorem</td>
+            <td>lorem</td>
+            <td>lorem</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        
+        <tfoot>
+            <tr>
+                <td>Footer</td>
+                <td>Footer</td>
+                <td>Footer</td>
+            </tr>
+        </tfoot>
+        
+        <thead>
+            <tr>
+                <th>Header</th>
+                <td>Header</td>
+                <td>Header</td>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Body</td>
+                <td>Body</td>
+                <td>Body</td>
+            </tr>
+        </tbody>
+    </table>
+   <!--  div.contenedor#idEjemplo>ul>li*4>a[href="#"]{texto $} -->
+</body>
+</html>
