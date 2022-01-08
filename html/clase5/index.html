@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form>
+        <label for="perro">Nombre</label> <!-- Para poner un texto a lado del input -->
+        <input size="4" maxlength="5" type="text" name="name" id="perro" placeholder="Danna" pattern="[A-Za-z]{3}" required value="perro"> <br><br>
+        <!-- value es un texto que puedes dejar o modificar -->
+        <!-- required obliga a que completen el campo -->
+        <input type="text" name="lastName" id="" placeholder="Matias" required> <br><br>
+
+        <label for="email">Email</label> <!-- Para poner un texto a lado del input -->
+        <input type="email" name="email" id="email" placeholder="correo"> <br><br>
+
+        <input type="number" name="" min="5" max="10"> <br><br>
+        
+        <input type="password" name="">
+
+        <input type="submit" value="Enviar">
+        <!-- disabled descativa -->
+
+    </form>
+
+</body>
+</html>
