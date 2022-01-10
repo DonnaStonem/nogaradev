@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,30 +23,69 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <meta name="keywords" content="portfolio, Donna, DonnaStonem, web, developer">
+    <meta name="description" content="Soy Danna, student ambassador en nogara devcode">
+    <meta name="author" content="Danna Medina">
+    <meta name="copyright" content="Danna Inc.">
     <title>Contact me</title>
 </head>
+
 <body>
 
-    <div>
-        <a href="index.html"><button>Inicio</button></a>
-        <a href="aboutme.html"><button>About me</button></a>
-        <a href="wrk.html"><button>Work</button></a>
-        <a href="music.html"><button>Music</button></a>
-        <a href="contactme.html"><button>Contact me</button></a>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button>Inicio</button></a></li>
+                <li><a href="aboutme.html"><button>About me</button></a></li>
+                <li><a href="wrk.html"><button>Work</button></a></li>
+                <li><a href="music.html"><button>Music</button></a></li>
+                <li><a href="contactme.html"><button>Contact me</button></a></li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
 
-    <div id="contactme">
-        <h1 style="background-color: rgb(199, 182, 216);">Contact me</h2>
-        <img width=3% src="img/instagram.png" alt="Logo Instagram"><a href="https://www.instagram.com/donna.stonem/" target="_BLANK"> Instagram</a> <br>
-        <img width="3%" src="img/facebook.png" alt="Logo Facebook"><a href="https://www.facebook.com/danna.lizbeth.1/" target="_BLANK"> Facebook</a> <br>
-        <img width="3%" src="img/twitter.png" alt="Logo Twitter"><a href="#" target="_BLANK"> Twitter</a> <br>
-        <img width="3%" src="img/github.png" alt="Logo Github"><a href="https://github.com/DonnaStonem" target="_BLANK"> Github</a> <br>
-        <img width="3%" src="img/gmail.png" alt="Logo Gmail"><a href="#" target="_BLANK"> Gmail</a> <br>
-        <img width="3%" src="img/outlook.png" alt="Logo Outlook"><a href="#" target="_BLANK"> Correo</a> <br>
+    <main>
+        <section>
+            <h1 style="background-color: rgb(199, 182, 216);">Contact me</h2>
+                <img width=3% src="img/instagram.png" alt="Logo Instagram"><a
+                    href="https://www.instagram.com/donna.stonem/" target="_BLANK"> Instagram</a> <br>
+                <img width="3%" src="img/facebook.png" alt="Logo Facebook"><a
+                    href="https://www.facebook.com/danna.lizbeth.1/" target="_BLANK"> Facebook</a> <br>
+                <img width="3%" src="img/twitter.png" alt="Logo Twitter"><a href="#" target="_BLANK"> Twitter</a> <br>
+                <img width="3%" src="img/github.png" alt="Logo Github"><a href="https://github.com/DonnaStonem"
+                    target="_BLANK"> Github</a> <br>
+                <img width="3%" src="img/gmail.png" alt="Logo Gmail"><a href="#" target="_BLANK"> Gmail</a> <br>
+                <img width="3%" src="img/outlook.png" alt="Logo Outlook"><a href="#" target="_BLANK"> Correo</a> <br>
+        </section>
 
-    </div>
+        <section>
+            <form action="">
+                <h1>ENVÍAME UN MENSAJE</h1>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Danna" required> <br><br>
+
+                <label for="lastname">Apellido</label>
+                <input type="text" name="lastname" placeholder="Medina" required> <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="example@gmail.com" required> <br><br>
+
+                <label for="mensaje">Mensaje</label> <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="5" required></textarea> <br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <br>
+
+    <footer>
+        <h3>Copyright - Todos los derechos reservados</h3>
+    </footer>
 
 </body>
+
 </html>

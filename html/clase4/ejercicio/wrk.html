@@ -28,30 +28,34 @@
 
 <body>
 
-    <div>
-        <a href="index.html"><button>Inicio</button></a>
-        <a href="aboutme.html"><button>About me</button></a>
-        <a href="wrk.html"><button>Work</button></a>
-        <a href="music.html"><button>Music</button></a>
-        <a href="contactme.html"><button>Contact me</button></a>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button>Inicio</button></a></li>
+                <li><a href="aboutme.html"><button>About me</button></a></li>
+                <li><a href="wrk.html"><button>Work</button></a></li>
+                <li><a href="music.html"><button>Music</button></a></li>
+                <li><a href="contactme.html"><button>Contact me</button></a></li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
 
-    <div>
-        <div id="hardskills">
-            <h1 style="background-color: rgb(169, 209, 241);">Skills</h1>
+    <main>
+        <section id="skills">
+            <h1 style="background-color: tomato;">Skills</h1>
+            <ul>
+                <li><img width="3%" src="img/html5.png" alt="html5"> HTML5</li>
+                <li><img width="3%" src="img/css3.png" alt="css3"> CSS </li>
+                <li><img width="3%" src="img/javascript.png" alt="javascript"> JAVASCRIPT</li>
+                <li><img width="3%" src="img/git.png" alt="git"> GIT Y GITHUB</li>
+                <li><img width="3%" src="img/c.png" alt="c++"> C++</li>
+            </ul>
+        </section>
 
-            <img width="3%" src="img/html5.png" alt=""> HTML5 </li> <br>
-            <img width="3%" src="img/css3.png" alt=""> CSS </li> <br>
-            <img width="3%" src="img/javascript.png" alt=""> JAVASCRIPT</li> <br>
-            <img width="3%" src="img/git.png" alt=""> GIT Y GITHUB </li> <br>
-            <img width="3%" src="img/c.png" alt=""> C++ </li>
-        </div>
-
-        <div id="softskills">
+        <section id="softSkills">
             <h2 style="background-color: rgb(148, 146, 241);">Soft skills</h2>
-
             <ul>
                 <li>Autodidacta</li>
                 <li>Trabajo en equipo</li>
@@ -59,20 +63,37 @@
                 <li>Flexibilidad</li>
                 <li>Ética profesional</li>
             </ul>
+        </section>
 
-        </div>
-
-        <div id="proyectos" >
-            <h3 style="background-color: rgb(132, 184, 197);">Proyectos</h3>
+        <section id="proyectos">
+            <h2 style="background-color: rgb(132, 184, 197);">Proyectos</h3>
             <ul>
-                <li><p>He hecho una página en Wordpress para la empresa <a target="_BLANK" href="https://www.mantenimientovasa.com">Mantenimiento Vasa</a></p></li>
-                <li><p> He hecho en arduino una alarma laser</p>
+                <li>
+                    <p>He hecho una página en Wordpress para la empresa <a target="_BLANK"
+                            href="https://www.mantenimientovasa.com">Mantenimiento Vasa</a></p>
+                </li>
+                <li>
+                    <p> He hecho en arduino una alarma laser</p>
                     <video controls width="50%">
-                        <source src="assets/arduino.mp4"> 
-                    </video></li>
+                        <source src="assets/arduino.mp4">
+                    </video>
+                </li>
             </ul>
-        </div>
-    </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Copyright - Todos los derechos reservados</h3>
+        <ul>
+            <li><img width=3% src="img/instagram.png" alt="Logo Instagram"><a href="https://www.instagram.com/donna.stonem/"
+                target="_BLANK"> Instagram</a></li>
+            <li><img width="3%" src="img/facebook.png" alt="Logo Facebook"><a href="https://www.facebook.com/danna.lizbeth.1/"
+                target="_BLANK"> Facebook</a></li>
+            <li><img width="3%" src="img/twitter.png" alt="Logo Twitter"><a href="#" target="_BLANK"> Twitter</a></li>
+            <li><img width="3%" src="img/github.png" alt="Logo Github"><a href="https://github.com/DonnaStonem" target="_BLANK">
+                Github</a></li>
+        </ul>
+    </footer>
 
 </body>
 
