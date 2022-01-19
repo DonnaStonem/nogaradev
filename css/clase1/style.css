@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@font-face {
+    font-family: fuente;
+    src: url('fonts/Teko-SemiBold.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/* menu */
+/* *********** */
+/* header
+main
+footer */
+
+
+/* header */
+
+header nav button {
+    background-color: rgb(100, 100, 131);
+}
+
+button {
+    background-color: rgb(185, 144, 144);
+}
+
+nav button {
+    background-color: rgb(114, 110, 110);
+}
+
+header h1 {
+    background-color: blueviolet;
+    color: burlywood;
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+header h1 {
+    background-color: cornflowerblue;
+    color: rgb(182, 153, 209));
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+header h2 a{
+    font-family: Pacifico;
+    text-decoration: overline dotted blue;
+    /* text-decoration-thickness: initial;
+    text-decoration-style: dashed;
+    text-decoration-color: darkgoldenrod; */
+}
+/* main */
+
+main button {
+    background-color: cadetblue;
+}
+
+/* selectores: etiqueta, id, clase */
+
+p {
+    background-color: rgb(233, 156, 56);
+    color: rgb(46, 46, 46);
+    font-family: 'Abel', sans-serif;
+    font-variant: small-caps;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent:50px;
+}
+
+#azul, #azulx2 {
+    background-color:aqua;
+}
+
+.rojo {
+    background-color: rgb(212, 47, 47);
+    color: white;
+}
+
+/* footer */
+

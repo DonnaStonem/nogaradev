@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Saira+Condensed:wght@500&display=swap');
+/* MENU
+header
+main
+footer */
+
+/* GENERAL */
+
+* {
+    list-style:none; /* quita los puntitos del li */   
+    font-family: 'Saira Condensed', sans-serif;
+    }
+
+header {
+        background-color: rgb(223, 137, 197);
+        text-align: center;
+        font-size: 5px;
+        font-size: 1em;
+    }
+
+h1 {
+        font-size: 2em;
+        font-family: 'Oswald', sans-serif;
+    }
+
+button {
+        background-color: rgba(196, 16, 16, 0.452);
+        color: white;
+        border: solid black;
+    }
+
+main {
+        background-color: rgb(139, 201, 230);
+        font-size: 1em;
+        text-align: center;
+        padding: 50px 20px;
+        margin: 0%;
+    }
+
+footer {
+        padding: 40px;
+        text-align: center;
+        background-color: rgb(201, 224, 224);
+        color: black;
+        }
+
+/* index */
+
+
+p {
+    font-size: 1.4em;
+}
+.donna {
+    border-radius: 15%;
+}
