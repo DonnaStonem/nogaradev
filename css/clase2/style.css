@@ -1,0 +1,100 @@
+
+
+div {
+    background-color: rgb(173, 106, 106);
+    height: 50px;
+    float: left; /* posiciona un elemento de bloque a lado */
+    width: 200px;
+}
+
+/* img{
+    width: 100%;
+    max-width: 600px;
+    min-width: 300px;
+} */
+
+#color1 {
+    background-color: black;
+    width: 50%;
+    max-width: 600px;
+    min-width: 400px;
+    margin: auto;
+}
+
+#color2 {
+    background-color: white;
+}
+
+#color3 {
+    background-color: red;
+}
+
+#color4 {
+    background-color: green;
+}
+
+#color5 {
+    background-color: blue;
+    color: white;
+}
+
+#rgb1 {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#rgb2 {
+    background-color: rgb(255, 255, 255);
+}
+
+#rgb3 {
+    background-color: rgb(255, 0, 0);
+}
+
+#rgb4 {
+    background-color: rgb(0,255, 0);
+}
+#rgb5 {
+    background-color: rgb(0, 0, 255);
+}
+
+
+#hex1 {
+    background-color: #000000 ;
+}
+
+#hex2 {
+    background-color: #ff0000;
+}
+
+#hex3 {
+    background-color: #00ff00;
+}
+
+#hex4 {
+    background-color:#0000ff;
+}
+#hex5 {
+    background-color: #fff;
+}
+
+#hsl1 {
+    background-color: hsl(0, 0, 0) ;   
+}
+
+#hsl2 {
+    background-color: hsl(100, 100%, 100);   
+}
+
+#hsl3 {
+    background-color: hsl(0, 100%, 50);   
+}
+
+#hsl4 {
+    background-color: hsl(120, 100%, 50);   
+}
+
+#hsl5 {
+    background-color: hsl(250, 100%, 50);   
+}
+
+/* HACER UNA RÉPLICA DE YOUTUBE */
