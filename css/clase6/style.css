@@ -1,0 +1,21 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+section {
+    padding: 5rem;
+    color: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blueviolet;
+    background-image: url(img/donna.jpg);
+    background-position: center;
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    padding: 2rem;
+    background-color: rgb(176, 143, 207);
+}
+/* justify para acomodar algo en el centro */
+div {
+    background: bisquet;
+    font-size: 1.3rem;
+    border: 5px dotted rgb(54, 213, 224);
+    width: 30%;
+    order: 5;
+}
+
+p {
+    background-color: tomato;
+}
+/* ACOMODAR POR ORDEN ALFABETICO LAS PROPIEDADES BUENA PRÁCTICA DE CSS*/

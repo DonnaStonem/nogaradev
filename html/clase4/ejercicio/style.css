@@ -11,7 +11,13 @@ footer */
     list-style:none; /* quita los puntitos del li */   
     font-family: 'Saira Condensed', sans-serif;
     }
-
+#linav {
+    float:left;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
 header {
         background-color: rgb(223, 137, 197);
         text-align: center;
