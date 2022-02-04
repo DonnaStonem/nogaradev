@@ -6,16 +6,34 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-
+h1 {
+    font-size: 2rem;
+}
 
 section {
-    padding: 5rem;
+    height: 100vh;
     color: cornsilk;
     display: flex;
     justify-content: center;
     align-items: center;
 
     background-color: blueviolet;
-    background-image: url(img/donna.jpg);
-    background-position: center;
+    background-image: linear-gradient(blueviolet, deeppink, orange, yellow);
+    
+    /* background-image: url(img/donnas.jpg); */
+   /*  background-image: url(img/donnas.jpg);
+    background-position: center top;
+
+    background-repeat: repeat;
+    background-size: 100% 100%; */
 }
+
+
+/* MEDIA QUERIES SIEMPRE VAN AL FINAL DEL CSS o en otro archivo*/
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color:brown;
+    }
+}
+

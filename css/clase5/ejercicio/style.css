@@ -8,8 +8,10 @@
 #first-section {
     padding: 1.5rem;
     background-color: #5EC4FF;
+    background-image: linear-gradient(to bottom left, rgb(31, 141, 231) 0% 50%, white 50% 100%);
     max-width: 1080px;
     margin: auto;
+
 
 }
 
@@ -105,7 +107,7 @@ ul li {
 
 /* section */
 
-.part2 {
+.second-section {
     background-color: #EBA13F;
     display: flex;
     justify-content: center;
@@ -129,5 +131,136 @@ ul li {
 
 .principal {
     margin: 30px;
+    
+}
+
+
+@media screen and (max-width:500px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Helvetica;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav div {
+        background-color: #1B6E9E;
+        align-self: center;
+        font-size: 1.5rem;
+        
+    }
+    nav div span {
+        background-color: #2aabf5;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        width: 60%;
+        
+    }
+
+    ul li {
+        background-color: #1B6E9E;
+        padding: .3rem .3rem;
+        border-radius: 10px;
+        font-size: 1rem;
+    /* align-self: center; */
+    /* display: list-item; */
+    }
+    
+    .container1 {
+    display: flex;
+    padding: 1rem 0;
+}
+
+#left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: .75rem;
+
+}
+
+#left .description {
+    font-size: .8rem;
+    padding: 3rem 0;
+    
+}
+
+#left .btn {
+    background-color: #1B6E9E;
+    border-radius: 20px;
+    padding: .5rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+#right {
+    width: 60%;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+
+}
+
+.iframe {
+    width: 100%;
+    position: relative;
+    padding-top: 60%;
+    overflow: hidden;
+    border-radius: .8rem;
+    box-shadow: 159px;
+    
+
+}
+
+.iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* section */
+
+.second-section {
+    background-color: #EBA13F;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: cornsilk;
+}
+
+#p-2 {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.principal {
+    margin: 30px;
+    
+}
+
     
 }
