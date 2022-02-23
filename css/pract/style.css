@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.container {
+    /* 
+    flex-direction: row;
+    flex-wrap: wrap;
+    Y juntos queda como:
+    flex-flow: [flex-direction] [flex-wrap]
+    flex-flow: row wrap;
+    */
+
+    /* 
+    MAIN AXIS (HORIZONTAL)
+    justify-content: space-evenly; 
+    */
+
+    /* 
+    CROSS AXIS (VERTICAL)
+    align-items: center;
+    */
+    /* Gap agrega espacio entre cada elemento */
+    background-color: rgb(211, 27, 186);
+    display: flex;
+    width: 600px;
+
+
+}
+/* Order: 1; Se le asigna a los items para darle un orden igual o diferente */
+/* flex-grow:1; Proporción de crecimiento */
+/* flex-shrink: ; Todos los elementos tratarán de encogerse junto con su contenedor*/
+/* flex-basis: 100px; Se utiliza mucho con flex grow y shrink permite asignarle un tamaño a los elementos
+Cubren el ancho de acuerdo al contenido que tienen y no tiene un desborde*/
+
+/* RESUMIENDO flex: [flex-grow] [flex-shrink] [flex-basis]; */
+/* flex: 0 1 auto;  VALOR POR DEFECTO */
+/* align-self: center; Alinea verticalmente cada elemento*/
+.items {
+    background-color: rgb(58, 206, 169);
+    border: 3px slateblue solid;
+}
+.item-1 {
+    height: 100px;
+}
+
+.item-2 {
+    align-self: baseline;
+}
+
+.item-3 {
+    height: 100px;
+}
+
+.item-4 {
+    height: 100px;
+}
+

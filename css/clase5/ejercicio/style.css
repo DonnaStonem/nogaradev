@@ -92,8 +92,6 @@ ul li {
     overflow: hidden;
     border-radius: 1.5rem;
     box-shadow: 159px;
-    
-
 }
 
 .iframe iframe {
@@ -137,73 +135,71 @@ ul li {
 
 
 @media screen and (max-width:500px) {
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        font-family: Helvetica;
-    }
+* {
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }  
 
-    nav div {
-        background-color: #1B6E9E;
-        align-self: center;
-        font-size: 1.5rem;
-        
-    }
-    nav div span {
-        background-color: #2aabf5;
-    }
-
-    ul {
-        display: flex;
-        list-style: none;
-        /* justify-content: space-between; */
-        /* align-items: center; */
-        width: 60%;
-        
-    }
-
-    ul li {
-        background-color: #1B6E9E;
-        padding: .3rem .3rem;
-        border-radius: 10px;
-        font-size: 1rem;
-    /* align-self: center; */
-    /* display: list-item; */
-    }
-    
-    .container1 {
-    
-    padding: .6rem 0;
-}
 #first-section {
-
+    padding: 10px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to bottom left, rgb(118, 31, 231) 0% 50%, white 50% 100%);
 }
 
-#left {
-    width: 30%;
+nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-right: .75rem;
+    align-items: center;
+}
+nav div {
+    font-size: 35px;
+}
 
+nav div span {
+    background-color: #af56ca;
+}
+
+ul {
+    width: 60%;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+ul li{
+    background-color: #af56ca;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.container1 {
+    padding: 1rem 0;
+    margin-left: 10px;
 }
 
 #left .description {
-    font-size: .7rem;
-    padding: 3rem 0;
-    
+    font-size: 15px;
 }
 
 #left .btn {
-    background-color: #1B6E9E;
-    border-radius: 20px;
-    padding: .5rem;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-
+    font-size: 15px;
+    background-color: rgba(164, 64, 194, 0.747);
 }
 
-    
+
+#right {
+    width: 60%;
+}
+
+.iframe {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 159px;
+}
+
+.second-section {
+    background-color: #202c68;
+}
+
+#p-2 {
+    margin-top: 10px;
+}
 }

@@ -1,0 +1,71 @@
+
+.text-white {
+    color: rgb(87, 78, 78);
+}
+
+.borderad {
+    border-radius: 40px;
+}
+ul {
+    background-color: blueviolet;
+    list-style-type: none;
+    list-style:inside;
+}
+
+li {
+    background-color: aqua;
+}
+
+.list-1 {
+    padding: 1rem;
+}
+
+.list-3 {
+    padding: 2rem;
+}
+
+table, td {
+    border: 2px solid;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+/* Para links */
+
+a:link {
+    color: green;
+    /* cuando todavía no visitas el link */
+}
+
+a:visited {
+    color: orchid;
+    /* cuando ya se visitó la página */
+}
+
+/* Los más utilizados:  */
+a:hover, a:active, a:focus{
+    /* HOVER ES cuando tienen el cursor encima */
+    background-color: blueviolet;
+    padding: 1rem;
+    color: aliceblue;
+}/* 
+a:active, a:focus{
+    background-color: brown;
+    /* cuando le das click */
+}
+
+a:focus-visible {
+    /* tabulador */
+    background-color:blue;
+} 

@@ -1,0 +1,58 @@
+/* LA IMAGEN SE QUEDA FIJA Y SE PUEDE SEGUIR HACIENDO SCROLL */
+
+section {
+    padding: 1rem;
+/*     background-image: url(../img/fondo3.jpg); */
+    background-position: center;
+    background-attachment: fixed;
+}
+
+p {
+    
+    font-size: 1rem;
+    text-shadow: 0 0 5px rgb(119, 118, 118);
+    color: #fff;
+}
+
+p:hover{
+    cursor: pointer;
+    background-color: rgb(153, 104, 104);
+}
+a {
+    text-decoration: none;
+    color: rgb(65, 98, 141);
+}
+
+a:hover {
+    background-color: rgb(49, 36, 85);
+}
+
+section:first-child {
+    background-color: rgb(248, 155, 155);
+}
+
+section:last-child, section:last-of-type {
+    background-color: rgba(53, 67, 189, 0.712);
+    font-family: Helvetica;
+}
+
+
+section p:nth-child() {
+    background-color: rgb(115, 163, 218);
+}
+
+span::before {
+    content: url(../img/donnas.jpg);
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/donnas.jpg);
+    background-size: contain;
+}
+
+span::after{
+    content: 'asdf';
+}
+
+p::first-line {
+    
+}
