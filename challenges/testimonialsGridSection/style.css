@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+}
+
+ul {
+    display: flex;
+}
+
+.images {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 60%;
+}
+
+.users {
+    padding: 10px;
+}
+.names {
+    color: hsl(0, 0%, 100%);
+}
+
+.verified {
+    color: hsl(0, 0%, 100%, 0.5);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(auto, auto);
+    gap: 2em;
+    margin: 30px;
+    padding: 40px;
+    max-width: 1440px;
+}
+
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url('images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    grid-column: 1 / 3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    grid-column: 3 / 4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: 2 / 4;
+    padding: 20px;
+    border-radius: 10px;
+}
+.kira {
+    
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 4 / 5;
+    grid-row: 1 / 3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.first-b {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.second-b {
+    padding-top: 15px;
+    color: hsl(0, 0%, 100%, 0.7);
+    font-weight: 500;
+}
+
+.first-n {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.second-n {
+    color: rgba(0, 0, 0, 0.7);
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    font-weight: 500;
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        max-width: 370px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: minmax(100px, 100px);
+        /* margin-left: 50px; */
+        padding: 10px;
+    }
+    
+        .daniel {
+            grid-column: 1 / 2;
+            
+        }
+        
+        .jonathan {
+            grid-column: 1 / 2;
+        }
+        
+        .jeanette {
+            grid-column: 1 / 2;
+        }
+        
+        .patrick {
+            grid-column: 1 / 2;        
+        }
+        
+        .kira {
+            grid-column: 1 / 2;        
+        }
+  }
