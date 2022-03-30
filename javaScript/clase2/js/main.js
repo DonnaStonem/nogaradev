@@ -64,4 +64,4 @@ if (mensaje == true && visto == false) {
 }
 else {
     console.log('Echale ganas brou');
-}
+} 
