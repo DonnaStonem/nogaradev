@@ -1,0 +1,18 @@
+body {
+    padding: 1rem;
+}
+span.click{
+    background-color: rgb(118, 155, 185);
+    padding: 1rem 2rem;
+    color: aliceblue;
+}
+
+span.click:hover{
+
+}
+
+span.click2{
+    background-color: rgb(118, 155, 185);
+    padding: 1rem 2rem;
+    color: aliceblue;
+}
